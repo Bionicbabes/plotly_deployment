@@ -99,8 +99,8 @@ function buildCharts(sample) {
     // 9. Create the layout for the bar chart. 
     var barLayout = {
       title: "Top 10 Bacteria Cultures Found",
-      xaxis: {title: "Bacteria Type"},
-      yaxis: {title: ""}
+      xaxis: {title: ""},
+      yaxis: {title: "Bacteria Type"}
     };
     // 10. Use Plotly to plot the data with the layout. 
     Plotly.newPlot("bar", barData, barLayout)
